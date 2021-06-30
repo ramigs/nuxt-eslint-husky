@@ -1,5 +1,11 @@
 # nuxt-eslint-husky
 
+Nuxt.js lint-checking on commit (ESLint & Husky).
+
+Based on Colby Fayock's [blogpost](https://spacejelly.dev/posts/how-to-automate-code-linting-in-next-js-with-eslint-husky-git-hooks/).
+
+To test, clone the repo, add an unused variable anywhere, and try to commit the change.
+
 ## Build Setup
 
 ```bash
@@ -40,7 +46,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 
